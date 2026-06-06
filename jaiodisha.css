@@ -27,7 +27,7 @@ header {
   background: #060910;
   color: #ffffff;
   display: flex;
-  aspect-ratio: 16 / 9;
+  aspect-ratio: 16 / 7 ;
   width: 100%;
   justify-content: center;
   position: relative;
@@ -288,7 +288,7 @@ a:hover i {
   color: #d63031;
 }
 
-/* jaiodisha.html responsive styles */
+/* index.html responsive styles */
 @media (max-width: 900px) {
   .contact-site-header {
     align-items: flex-start;
@@ -1090,18 +1090,22 @@ body {
 /* Projects section */
 .projects-sec {
   .text {
-    font-size: 35px;
+    font-size: 30px;
     font-family: 'Cormorant Garamond', serif;
-    line-height: 1.4;
+    line-height: 4 ;
+
   }
   .listen {
     margin-left: 0px;
+    line-height: 1;
+   
   }
   .care {
     margin-left: 60px;
   }
   .speak {
     margin-left: 120px;
+   
   }
 }
 .project-block {
