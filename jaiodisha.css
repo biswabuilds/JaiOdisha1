@@ -642,16 +642,14 @@ body {
 
 /* Projects section */
 .projects-sec {
-  margin-top: 100px;
+  margin-top: 70px;
   .text {
     font-size: 30px;
-    line-height: 7;
+    line-height: 0.1;
 
   }
   .listen {
     margin-left: 0px;
-    z-index: 3;
-   
    
   }
   .care {
