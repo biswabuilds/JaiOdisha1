@@ -3,7 +3,7 @@
 /*
   CSS order:
   1. Shared styles
-  2. jaiodisha.html
+  2. index.html
   3. home.html
   4. about.html
   5. projects.html
@@ -17,8 +17,6 @@ body {
 header {
   background: rgb(175, 32, 32);
   color: #fff;
-  padding: 20px 40px;
-  border-radius: 10px;
   padding: 60px 30px;
 }
 .hero-login {
@@ -95,10 +93,9 @@ footer {
   text-align: center;
   padding: 10px;
   margin-top: 50px;
-  align-items: bottom;
 }
 
-/* jaiodisha.html */
+/* index.html */
 .contact-site-header {
   align-items: center;
   background: #ffffff;
@@ -130,7 +127,6 @@ footer {
 .header-logo-link img {
   border-radius: 8px;
   height:100%;
-  width: 100%;
   object-fit: cover;
   width: 96px;
 }
@@ -249,12 +245,19 @@ a:hover i {
   }
 }
 
+.welcome-section {
+  align-items: left;
+  display: flex;
+  justify-content: left;
+  font-size: 35px;
+  margin-left: 30px;
+}
+
 /* home.html */
 /* Home hero slideshow */
 .hero {
   /* border-radius: 40px; */
   color: white;
-  padding: 160px 30px;
   animation: zoomIn 1.5s ease;
   position: relative;
   padding: 30px 30px;
@@ -327,7 +330,6 @@ a:hover i {
   font-size: 70px;
   color: rgb(235, 7, 19);
   font-weight: bold;
-  align-items: top;
   position: absolute;
   left: 30px;
   top: 20px;
