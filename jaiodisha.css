@@ -252,23 +252,24 @@ a:hover i {
 }
 .welcome-section h2 {
   font-size: 50px;
-
+  word-spacing: 15px;
   color: #111;
   margin-left: 20px;
 }
 .welcome-section h3 {
   color: #e81616;
-  margin-bottom: 2px;
+  margin-bottom: 7px;
   font-size: 40px;
-  margin-left: 35px;
+  margin-left: 60px;
+  word-spacing: 15px;
 }
 .welcome-section p {
   font-size: 21px;
   line-height: 1.9;
   color: #030303;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
   margin-left: 40px;
-  margin-right:40px;
+  margin-right:150px;
 }
 
 
